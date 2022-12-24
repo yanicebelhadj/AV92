@@ -1,0 +1,90 @@
+.ActuList {
+  position: relative;
+  height: 100%;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.ActuList .fond-couleur {
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #580407b5;
+}
+.ActuList .fond-img #imgFond {
+  position: absolute;
+  height: 100%;
+  filter: blur(5px) contrast(160%) saturate(2);
+  z-index: -2;
+}
+.ActuList #logoFond {
+  position: absolute;
+  height: 800px;
+  left: -400px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.ActuList .text-area {
+  overflow: scroll;
+  height: 125vh;
+  padding: 15px;
+  z-index: 2;
+}
+.ActuList .text-area a {
+  text-decoration: none;
+}
+.ActuList .text-area .title_page {
+  width: 100%;
+  text-align: left;
+}
+.ActuList .text-area .title_page h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  color: #FFFFFF;
+  left: 200px;
+}
+.ActuList .text-area .link_article {
+  height: 80px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+.ActuList .text-area .link_article p {
+  font-family: "Ruda";
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  height: 26px;
+  color: #FFFFFF;
+  margin: 13px 0 auto;
+}
+.ActuList .text-area .link_article .title_actu {
+  width: 80%;
+  height: 100%;
+  margin: 0 10px;
+  display: flex;
+}
+.ActuList .text-area .link_article .icone_fleche {
+  width: 20%;
+  height: 100%;
+  display: flex;
+}
+.ActuList .text-area .ligne {
+  width: 100%;
+  height: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ActuList .text-area a:hover {
+  text-decoration: bold;
+}
+
+@media screen and (max-width: 1296px) {
+  .ActuList {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=ActuList.css.map */

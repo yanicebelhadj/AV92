@@ -1,0 +1,116 @@
+.ProgramPage {
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  background: linear-gradient(115.61deg, #BA2F33 13.87%, #2B3968 89.67%);
+  min-height: 100vh;
+}
+.ProgramPage h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+}
+.ProgramPage .textArea {
+  display: flex;
+  margin: 40px;
+  width: 90%;
+}
+.ProgramPage .textArea a {
+  width: 158px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  font-family: "Viga";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.ProgramPage .textArea a:hover {
+  border: 1px solid none;
+  background: #fff;
+  color: inherit;
+  transition: 600ms ease;
+}
+.ProgramPage .ContainerImage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ProgramPage .ContainerImage #mobileRedirection {
+  display: none;
+}
+
+@media screen and (max-width: 1296px) {
+  .ProgramPage {
+    padding: 2rem 0 !important;
+  }
+  .ProgramPage h1 {
+    font-size: 24px;
+  }
+  .ProgramPage .textArea {
+    margin-bottom: 0;
+  }
+  .ProgramPage .textArea a {
+    display: none;
+  }
+  .ProgramPage .ContainerImage {
+    background-repeat: no-repeat;
+  }
+  .ProgramPage .ContainerImage #mobileRedirection {
+    width: 90%;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    font-family: "Viga";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .ProgramPage .score {
+    width: 62px !important;
+  }
+  .ProgramPage .nameTeam1 {
+    width: 80px !important;
+  }
+  .ProgramPage .nameTeam1 h3 {
+    font-size: 15px !important;
+    margin: 0;
+  }
+  .ProgramPage #team1 h3 {
+    text-align: right !important;
+    padding-left: 0 !important;
+  }
+  .ProgramPage #team2 h3 {
+    text-align: left !important;
+    padding-right: 0 !important;
+  }
+  .ProgramPage .containerMatchProgramme #MatchProgramme .match #logoEquipe {
+    width: 45px !important;
+  }
+}
+
+/*# sourceMappingURL=ProgramPage.css.map */

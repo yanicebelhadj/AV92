@@ -1,0 +1,89 @@
+.CoachCard .Card h2 {
+  margin: 0;
+  font-family: "Viga";
+  color: #949494;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CoachCard .Card .trainerCard {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px #0000001A;
+  height: 320px;
+  width: 400px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.CoachCard .Card .trainerCard .line {
+  opacity: 0.2;
+}
+.CoachCard .Card .trainerCard #line1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.CoachCard .Card .trainerCard #line1 .trainerPicture {
+  height: 233px;
+  width: 50%;
+  margin: 10px 0 0 10px;
+}
+.CoachCard .Card .trainerCard #line1 .trainerInformation {
+  width: 50%;
+  height: 233px;
+  margin: 10px 10px 10px;
+  color: #BA2F33;
+}
+.CoachCard .Card .trainerCard #line1 .name {
+  font-family: "Viga";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CoachCard .Card .trainerCard #line1 .training {
+  font-family: "Viga";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CoachCard .Card .trainerCard #line1 .training .place {
+  color: #2B3968;
+  margin: 0;
+}
+.CoachCard .Card .trainerCard #line1 .training .place p {
+  margin: 0;
+}
+.CoachCard .Card .trainerCard #line1 .training .time p {
+  margin-bottom: 6px;
+}
+.CoachCard .Card .trainerCard .trainerPhone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  width: 100%;
+  background-color: #2B3968;
+}
+.CoachCard .Card .trainerCard .trainerPhone p {
+  font-family: "Viga";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=CoachCard.css.map */

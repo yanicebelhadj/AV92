@@ -1,0 +1,67 @@
+.Classement {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.Classement table {
+  width: 90vw;
+  border-collapse: collapse;
+}
+.Classement table tr {
+  border-radius: 5px;
+}
+.Classement table th, .Classement table td {
+  padding: 10px;
+}
+.Classement table thead {
+  width: 10px;
+}
+.Classement table thead tr th {
+  font-family: "Viga";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #949494;
+}
+.Classement table tbody tr {
+  vertical-align: middle;
+}
+.Classement table tbody tr:nth-child(odd) {
+  background-color: #fff;
+  border-radius: 3px;
+}
+.Classement table tbody td {
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.Classement table tbody td:nth-child(1) {
+  text-align: left;
+}
+.Classement table tbody td:nth-child(3) {
+  padding-right: 30px;
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Classement table tbody th {
+  font-family: "Viga";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #2B3968;
+}
+
+/*# sourceMappingURL=Classement.css.map */

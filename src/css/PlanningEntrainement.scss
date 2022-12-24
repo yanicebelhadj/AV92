@@ -1,0 +1,487 @@
+.PlanningEntrainement{
+    padding: 4rem 4rem 4rem 7rem;
+    h1{
+        font-family: "Viga";
+        color: #BA2F33;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+}
+
+.containerPlanning{
+    
+    padding: 5rem 2rem 0 7rem;
+
+    h1{
+        font-family: "Viga";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #BA2F33;
+        margin-bottom: 34px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .categories{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        border-radius: 50%;
+        margin-bottom: 80px;
+    }
+
+    .category {
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 0px #0000001A;
+        height: 32px;
+        border-radius: 15px;
+        padding: 10px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px;
+    
+        font-family: "Viga";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #949494;
+    }
+}
+
+
+.containerPlanning .category:hover, .activePlanning, .activePlanning:hover{
+    background-color: #BA2F33;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 600ms ease;
+
+    p{
+        font-family: "Viga";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        transition: 600ms ease;
+    }
+}
+
+
+
+.listCard{
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h2{
+        font-family: "Viga";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 3px;
+        color: #949494;
+    }
+}
+
+.trainerCard{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    height: 320px;
+    width: 400px;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 40px;
+}
+
+#line1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.trainerPicture{
+    height: 233px;
+    width: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.trainerInformation{
+    width: 50%;
+    height: 233px;
+    margin: 10px 10px 10px ;
+    color: #BA2F33;
+}
+
+.trainerPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    width: 100%;
+    background-color: #2B3968;
+}
+
+.name{
+    font-family: "Viga";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.trainerPhone p, .OnePlace .column1 .row2{
+    font-family: "Viga";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.trainerCard .line{
+    opacity: 0.2;
+}
+
+.training{
+    font-family: "Viga";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.place{
+    color: #2B3968;
+    margin-bottom: 17px;
+    margin: 0;
+    p{
+        margin: 0;
+    }
+}
+
+.time{
+    margin-bottom: 6px;
+    p{
+        margin: 0;
+    }
+}
+
+.containerCard{
+    h1{
+        margin: 20px 0 0 15px;
+    }
+
+    h2{
+        font-family: "Viga";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #949494;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .row1{
+        h2{
+            margin: 0 0 0 15px;
+            font-size: 16px;
+            color: #2B3968;
+        }
+    } 
+} 
+
+.OnePlace{
+    width: 100%;
+    height: 540px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    display: flex;
+
+    .column1{
+        // height: 100%;
+        // width: 25%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .row1{
+            height:75%;
+            width: 100%;
+        }   
+
+        .row2{
+            width:100%;
+            height: 65px;
+            margin-bottom: 0;
+            border-radius: 3px;
+            background-color: #2B3968;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .column2{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .row1{
+            height: 20%;
+            width: 100%;
+        }
+
+        .row2{
+            height: 80% ;
+            // width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .column1{
+                // height: 100% ;
+                width: 450px;
+            }
+
+            .column2{
+                height: 100% ;
+                width: 45%;
+                margin-left: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-self: center;
+                .row1{
+                    width: 100%;
+                    height: 35%;
+                    margin-bottom: 20px;
+                }
+
+                .row2{
+                    width: 100%;
+                    height: 65%;
+                    
+                    font-family: "Viga";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #BA2F33;
+
+                    display: flex;
+                    flex-direction: column;
+                
+                    a{
+                        text-decoration: none;
+                    }
+                    .redirectionTeam{
+                        width: 100%;
+                    }
+
+                    .training{
+                        color:#2B3968;
+                        font-size:16px;
+                    }
+                
+                    ul{
+                        list-style: none;
+                    
+                        li{
+                            margin:20px 0 20px 0;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .column2ManyPlaces{
+        width:100%;
+
+        a{
+            text-decoration: none;
+            margin-left: auto;
+        }
+        
+        .row2{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .trainerPicture{
+        margin: 0;
+        img{
+            width: 293px;
+        }
+    }
+
+    .line{
+        
+        opacity: .2;
+        margin: 0 15px;
+        width: 95%!important;
+        height: 1px;
+        background-color: black;
+    }
+}
+
+
+.redirectionTeam{
+    height: 48px;
+    width: 177px;
+    background-color: #BA2F33;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    border-radius: 3px;
+
+    font-family: "Viga";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.containerPlanning .gymnase-card{
+    z-index: 3;
+}
+
+.info_training {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+    margin-left: auto;
+    background: linear-gradient(180deg, rgba(186, 47, 51, 0.63) 0%, rgba(43, 57, 104, 0.504) 100%);
+    color: #fff;
+    padding-top: 40px;
+    border-top-left-radius: 70px;
+
+    
+    font-family: "Viga";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+.containerCard{
+    .training-card{
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        height: 144px;
+        padding: 0;
+    
+    
+        background-color: #fff;
+    
+        border-radius: 3px 3px 70px 3px;
+        overflow: hidden;
+        
+        margin: 0 auto;
+        margin-bottom: 30px;
+        z-index: 2;
+        box-shadow: 0px 0px 20px 0px #0000001A;
+    }
+} 
+
+.streetview {
+    width: 336px;
+    height: 100%;
+    justify-content: flex-start;
+    border-radius: 3px 0 70px 3px;
+    background-position: 50%;
+    background-size: 160%;
+}
+
+.maps{
+    display: flex;
+    width: 100%;
+    background-position: center;
+}
+
+@media screen and (max-width: 1296px) {
+    .PlanningEntrainement{
+        padding: 4rem 0;
+
+        h1{
+            padding: 0 10px;
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 0;
+        }
+
+        .FilterCoach{
+            .categories {
+                display: none;
+            }
+        } 
+        .listCard{
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+            .trainerCard{
+                width: 373px;
+            }
+        }
+    }
+}

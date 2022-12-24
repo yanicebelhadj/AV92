@@ -1,0 +1,95 @@
+.Score{
+    
+  .headerMatch{
+    font-family: "Ruda";
+    margin-left: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2B3968;
+  }
+
+  .match{
+    height: 110px;
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .team1, .team2{
+        img{
+            width: 75px;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+
+        p{
+            font-family: "Roboto";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #AAAEBB;
+        }
+        
+        .results{
+            color: #2B3968;
+            display: flex;
+            flex-direction: row;
+            h3{
+                margin:0 10px;
+                font-family: "Ruda";
+            }
+        }
+    }
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 1296px) {
+  .Score{
+    .match{
+      #logoEquipe{
+        width: 45px;
+      }
+      .info{
+        display: flex;
+        justify-content: center;
+        p{
+          margin: 0;
+          font-size: 10px;
+        }
+        .results{
+          text-align: center;
+          h3{
+            font-size: 12px;
+          }
+          .nameTeam1{
+            width: 80px;
+            display: flex;
+            justify-content: center;
+          }
+          .score{
+            width: 75px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.TarifInscription {
+  display: flex;
+  padding: 4rem 7rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.TarifInscription #title {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BA2F33;
+}
+.TarifInscription #subtitle {
+  font-family: "Ruda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BA2F33;
+}
+.TarifInscription p {
+  margin: 0;
+}
+
+#cotisation {
+  margin-top: 3rem;
+  width: 106%;
+}
+
+.columnInscription {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1296px) {
+  .TarifInscription thead th:nth-child(1) {
+    width: 50%;
+  }
+
+  .TarifInscription .DocumentInscription {
+    flex-direction: column;
+  }
+
+  #Inscription svg, #PremiereInscription svg, #Renouvellement svg {
+    height: 33px !important;
+  }
+
+  .TarifInscription {
+    padding: 4rem 20px 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=TarifInscription.css.map */

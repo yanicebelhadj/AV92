@@ -1,0 +1,240 @@
+.ScoopHomePage {
+  background: linear-gradient(92.86deg, #BA2F33 56.67%, #2B3968 89.68%);
+  border-radius: 3px;
+  margin: 20px 0;
+  width: 100%;
+  height: 364px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.ScoopHomePage .background_shade_overlay {
+  position: relative;
+}
+.ScoopHomePage .background_shade_overlay .overlay {
+  width: 2000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  height: 70px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0.7%, rgba(0, 0, 0, 0) 103.63%);
+}
+.ScoopHomePage .background_shade_overlay .overlay .categoryActu {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ScoopHomePage .background_shade_overlay .overlay .categoryActu .circle_category {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #BA2F33;
+  border: 2px solid #FFFFFF;
+  z-index: 1;
+  margin-right: 11px;
+}
+.ScoopHomePage .background_shade_overlay .overlay .categoryActu .content_category p {
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.ScoopHomePage .backgroundFilter {
+  width: 100%;
+  background: linear-gradient(273.4deg, rgba(0, 0, 0, 0.69) 14.35%, rgba(0, 0, 0, 0) 129.39%);
+  display: flex;
+}
+.ScoopHomePage .backgroundFilter .textArea {
+  padding: 50px 40px;
+  width: 70%;
+  position: relative;
+}
+.ScoopHomePage .backgroundFilter .textArea h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-bottom: 0;
+}
+.ScoopHomePage .backgroundFilter .textArea p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff;
+}
+.ScoopHomePage .backgroundFilter .textArea .title_article h1 {
+  font-family: "Ruda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+.ScoopHomePage .backgroundFilter .textArea .content_article p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.ScoopHomePage .backgroundFilter .imageArea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1296px) {
+  .ScoopHomePageMobile {
+    width: 90% !important;
+    margin: 20px 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: column;
+    height: 600px;
+  }
+  .ScoopHomePageMobile .redirectionPage {
+    margin-top: auto;
+  }
+
+  .ScoopHomePage {
+    display: none;
+  }
+
+  .ScoopHomePageMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    height: 450px;
+    padding: 0;
+    margin: 20px 20px 20px 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    overflow: hidden;
+  }
+  .ScoopHomePageMobile .cible svg {
+    margin-right: 10px;
+  }
+  .ScoopHomePageMobile .descriptionCard {
+    background: linear-gradient(179.18deg, rgba(0, 0, 0, 0.8) 0.7%, rgba(0, 0, 0, 0) 103.62%);
+    display: flex;
+    flex-direction: row;
+    height: 71px;
+  }
+  .ScoopHomePageMobile .descriptionCard .cible {
+    padding: 20px 0 20px 20px;
+    font-family: "Ruda";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ScoopHomePageMobile .descriptionCard .date {
+    font-family: "Ruda";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+    margin-left: auto;
+    color: #fff;
+  }
+  .ScoopHomePageMobile .descriptionCard .date h2 {
+    text-align: right;
+  }
+  .ScoopHomePageMobile .descriptionCard p {
+    margin: 0 !important;
+  }
+  .ScoopHomePageMobile .containerRedirection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ScoopHomePageMobile .redirectionPage {
+    background: linear-gradient(179.01deg, rgba(0, 0, 0, 0.65) 1.43%, rgba(0, 0, 0, 0.35) 99.74%);
+  }
+  .ScoopHomePageMobile .redirectionPage .textArea {
+    width: 90%;
+    text-align: end;
+  }
+  .ScoopHomePageMobile .redirectionPage .textArea h1 {
+    font-family: "Viga";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    color: #fff;
+  }
+  .ScoopHomePageMobile .redirectionPage .textArea p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #fff;
+  }
+  .ScoopHomePageMobile #button_redirection {
+    height: 32px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BA2F33;
+    border-radius: 3px;
+    font-family: "Viga";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .ScoopHomePageMobile #button_redirection:hover {
+    background: #fff;
+    color: #BA2F33;
+    transition: 600ms;
+  }
+}
+
+/*# sourceMappingURL=ScoopHomePage.css.map */

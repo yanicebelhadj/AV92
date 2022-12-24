@@ -1,0 +1,16 @@
+.Contact {
+  padding-left: 7rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 1296px) {
+  .Contact {
+    padding: 5rem 0 0;
+  }
+}
+
+/*# sourceMappingURL=Contact.css.map */

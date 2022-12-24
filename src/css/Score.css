@@ -1,0 +1,79 @@
+.Score .headerMatch {
+  font-family: "Ruda";
+  margin-left: 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B3968;
+}
+.Score .match {
+  height: 110px;
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Score .match .team1 img, .Score .match .team2 img {
+  width: 75px;
+}
+.Score .match .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.Score .match .info p {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #AAAEBB;
+}
+.Score .match .info .results {
+  color: #2B3968;
+  display: flex;
+  flex-direction: row;
+}
+.Score .match .info .results h3 {
+  margin: 0 10px;
+  font-family: "Ruda";
+}
+
+@media screen and (max-width: 1296px) {
+  .Score .match #logoEquipe {
+    width: 45px;
+  }
+  .Score .match .info {
+    display: flex;
+    justify-content: center;
+  }
+  .Score .match .info p {
+    margin: 0;
+    font-size: 10px;
+  }
+  .Score .match .info .results {
+    text-align: center;
+  }
+  .Score .match .info .results h3 {
+    font-size: 12px;
+  }
+  .Score .match .info .results .nameTeam1 {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .Score .match .info .results .score {
+    width: 75px;
+  }
+}
+
+/*# sourceMappingURL=Score.css.map */

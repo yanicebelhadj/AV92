@@ -1,0 +1,115 @@
+.VieDuClub {
+  padding-left: 5rem;
+  padding-top: 3rem;
+  margin: 1rem auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+}
+.VieDuClub h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BA2F33;
+}
+.VieDuClub .PremLigne {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: 25px;
+}
+.VieDuClub .Overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+}
+.VieDuClub .Overlay h2 {
+  font-family: "Viga";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+@media screen and (max-width: 1296px) {
+  .containerVieDuClub h1 {
+    margin: 20px 12px 0 20px;
+  }
+
+  .PremLigne {
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  #Pres, #Histor {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .containerVieDuClub {
+    margin: 0;
+    width: 100%;
+  }
+
+  #ImgHistor {
+    height: 400px !important;
+  }
+
+  #MotPres {
+    flex-direction: column;
+  }
+
+  #ImgMotPres {
+    width: 100% !important;
+    height: 150px !important;
+  }
+
+  .TextMotPres {
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+  }
+
+  .VieDuClub {
+    padding-left: 0;
+  }
+  .VieDuClub .Overlay {
+    width: auto !important;
+    height: auto;
+  }
+  .VieDuClub .Overlay h2 {
+    margin: 0;
+  }
+
+  .PresentationClub {
+    width: 100%;
+  }
+
+  .HistoriqueClub {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .MotDuPresident {
+    flex-direction: column;
+  }
+  .MotDuPresident .TextMotPres {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+  }
+  .MotDuPresident .TextMotPres p {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=VieDuClub.css.map */

@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&family=Roboto&family=Ruda:wght@400;700&family=Viga&display=swap");
+:root {
+  --blanc:#FFF;
+  --couleurDeFond: #E5E5E5;
+  --rouge:#BA2F33;
+  --bleu:#1C2645;
+  --fontColor1:#2B3968;
+  --transitionSpeed: 600ms;
+  --degradeRouge:linear-gradient(90deg, #BA2F33 0%, #2B3968 100%);
+}
+
+div {
+  white-space: pre-wrap;
+}
+
+.SplashScreen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 3;
+  background-color: #000;
+}
+.SplashScreen .menu {
+  z-index: 4;
+  width: 90%;
+  margin-top: 25px;
+}
+.SplashScreen .ligne {
+  width: 100%;
+  z-index: 3;
+  height: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.SplashScreen ul {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 3;
+  padding-left: 0px;
+  margin: 30px 0;
+}
+.SplashScreen li {
+  display: block;
+  justify-content: space-around;
+  margin: 0 30px;
+  font-family: "Viga";
+  font-size: 16px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.SplashScreen .logo {
+  z-index: 1;
+  width: 100%;
+  margin-top: 80px;
+}
+.SplashScreen .logo img {
+  width: 15vw;
+  -webkit-filter: drop-shadow(10px 10px 100px #000000);
+  filter: drop-shadow(10px 10px 100px #000000);
+}
+.SplashScreen .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+}
+.SplashScreen .text-container a {
+  text-decoration: none;
+  width: 174px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  border-radius: 3px;
+}
+.SplashScreen .text-container .title {
+  display: flex;
+  justify-content: center;
+}
+.SplashScreen .text-container .title h1 {
+  font-size: 48px;
+  color: white;
+  padding: 20px;
+  font-family: "Viga";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 70%;
+}
+.SplashScreen .btn {
+  font-family: "Viga";
+  background-color: #BA2F33;
+  border-color: #BA2F33;
+  float: right;
+  margin: 20px;
+  clear: both;
+  display: flex;
+  align-items: center;
+}
+.SplashScreen .btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #BA2F33;
+}
+.SplashScreen .goToWebsite {
+  z-index: 1;
+  height: 20px;
+  margin-bottom: 80px;
+}
+.SplashScreen .goToWebsite a {
+  margin: -10px;
+  color: white;
+}
+@media screen and (min-width: 1296px) {
+  .SplashScreen .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .SplashScreen .video-container #video {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+.SplashScreen .color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(119.97deg, #2B3968 17.64%, #BA2F33 85.17%);
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+.SplashScreen .share {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+}
+.SplashScreen .double-angle {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background: #E5E5E5;
+}
+
+@media screen and (max-width: 1296px) {
+  .SplashScreen .logo img {
+    width: 70vw;
+  }
+  .SplashScreen .title h1 {
+    font-size: 32px !important;
+    line-height: 43px !important;
+    width: 95% !important;
+    margin: 0;
+  }
+  .SplashScreen .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-left: -103%;
+  }
+  .SplashScreen .video-container #video {
+    height: 100% !important;
+    width: inherit !important;
+  }
+  .SplashScreen .video-container #video video {
+    height: 100%;
+    width: inherit !important;
+  }
+  .SplashScreen .text-container a {
+    width: 342px;
+  }
+  .SplashScreen .share {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Splashscreen.css.map */

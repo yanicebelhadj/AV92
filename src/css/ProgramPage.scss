@@ -1,0 +1,143 @@
+.ProgramPage {
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    background: linear-gradient(115.61deg, #BA2F33 13.87%, #2B3968 89.67%);
+    min-height: 100vh;
+
+    h1{
+        font-family: "Viga";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        text-align: left;                                                                                                                                                                                                                                                                                                                                                                                                            
+        color: #fff;
+        width: 100%;    
+    }
+
+    
+
+    .textArea{
+        display: flex;
+        margin: 40px;
+        width: 90%;
+        a{
+            width: 158px;
+            height: 48px;
+            border: 1px solid #FFFFFF;
+            border-radius: 3px;
+
+            font-family: "Viga";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: center;
+            color:#fff;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        a:hover{
+            border: 1px solid none;
+            background: #fff;
+            color: inherit;
+            transition: 600ms ease;
+        }
+    }
+
+    .ContainerImage{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #mobileRedirection{
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1296px) {
+    .ProgramPage {
+        padding: 2rem 0 !important;
+        h1{
+            font-size: 24px;
+        }
+        .textArea{
+            margin-bottom: 0;
+            a {
+                display: none;
+            }
+        } 
+
+        .ContainerImage{
+            background-repeat: no-repeat;
+            #mobileRedirection{
+                width: 90%;
+                height: 48px;
+                border: 1px solid #FFFFFF;
+                border-radius: 3px;
+    
+                font-family: "Viga";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: center;
+                color:#fff;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;            
+            }
+        }
+
+        .score{
+            width: 62px !important;
+        }
+
+        .nameTeam1{
+            width: 80px !important;
+            h3{
+                font-size: 15px !important;
+                margin: 0;
+            }
+        }
+
+        #team1{
+            h3{
+                text-align: right !important;
+                padding-left: 0 !important;
+            }
+        }
+
+        #team2{
+            h3{
+                text-align: left !important;
+                padding-right: 0 !important;
+            }
+        }
+
+        .containerMatchProgramme{
+            #MatchProgramme{
+                .match {
+                    #logoEquipe {
+                        width: 45px !important;
+                    }
+                } 
+            } 
+        } 
+    }
+}
+

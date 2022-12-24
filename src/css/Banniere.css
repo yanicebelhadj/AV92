@@ -1,0 +1,91 @@
+.Banniere {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 0 10px 100px;
+  display: flex;
+  align-items: center;
+  z-index: 4;
+  width: 93vw;
+  height: 25px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 20px 0px #0000001A;
+  font-family: "Ruda";
+  font-style: normal;
+  color: var(--bleuEcriture);
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Banniere .banniereMobile {
+  display: none;
+}
+.Banniere .NavbarMobile {
+  display: none;
+}
+.Banniere .banniereDesktop {
+  display: flex;
+  align-items: center;
+}
+.Banniere h2 {
+  font-weight: 900;
+  line-height: 19px;
+  font-size: 14px;
+}
+.Banniere h3 {
+  font-weight: 400;
+  line-height: 17px;
+  font-size: 14px;
+}
+.Banniere svg {
+  margin-right: 20px;
+}
+.Banniere .verticalLine {
+  width: 0.5px;
+  height: 30px;
+  background-color: #2B3968;
+  margin: 0 10px;
+}
+.Banniere .associationName {
+  font-family: "Viga";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B3968;
+  width: 100px;
+  height: 32px;
+}
+.Banniere #logOut {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1296px) {
+  .Banniere {
+    width: 96%;
+    padding-left: 1rem;
+    align-self: flex-end;
+  }
+  .Banniere .banniereDesktop {
+    display: none;
+  }
+  .Banniere .banniereMobile {
+    display: flex;
+    align-items: center;
+  }
+  .Banniere .banniereMobile .logoBanniere {
+    height: 35px;
+  }
+  .Banniere .content_banniere {
+    display: none;
+  }
+  .Banniere .content_banniere_mobile {
+    display: block !important;
+  }
+  .Banniere .NavbarMobile {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=Banniere.css.map */

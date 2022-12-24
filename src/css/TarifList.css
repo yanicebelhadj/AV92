@@ -1,0 +1,85 @@
+.TarifList table {
+  width: 90vw;
+  border-collapse: collapse;
+}
+.TarifList th, .TarifList td {
+  padding: 10px 6px;
+}
+.TarifList td:nth-child(3) {
+  padding-right: 30px;
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #2B3968;
+}
+.TarifList thead th {
+  font-family: "Viga";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #949494;
+}
+.TarifList thead th:nth-child(1) {
+  width: 50%;
+}
+.TarifList thead th:nth-child(2) {
+  text-align: right;
+}
+.TarifList thead th:nth-child(3) {
+  text-align: right;
+  padding: 0 30px;
+}
+.TarifList tbody .TarifAsnieres {
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BA2F33;
+  width: 65px;
+  height: 32px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.TarifList tbody tr {
+  border-radius: 5px;
+}
+.TarifList tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+.TarifList tbody td {
+  text-align: right;
+}
+.TarifList tbody th {
+  font-family: "Viga";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B3968;
+}
+
+@media screen and (max-width: 1296px) {
+  .TarifList tbody th, .TarifList tbody p, .TarifList tbody td:nth-child(3) {
+    font-size: 12px;
+  }
+  .TarifList tbody th .thComplement, .TarifList tbody p .thComplement, .TarifList tbody td:nth-child(3) .thComplement {
+    font-size: 10px !important;
+  }
+}
+
+/*# sourceMappingURL=TarifList.css.map */

@@ -1,0 +1,353 @@
+:root {
+    --blanc:#FFF;
+    --couleurDeFond: #E5E5E5;
+    --rouge:#BA2F33;
+    --bleu:#1C2645;
+    --fontColor1:#2B3968;
+    --transitionSpeed: 600ms;
+    --degradeRouge:linear-gradient(90deg, #BA2F33 0%, #2B3968 100%);
+}
+
+.SplashScreen {
+    .navbar{
+        display:none;
+    }
+}
+
+
+.navbar {
+    position: fixed;
+    background-color: var(--bleu);
+    // transition: 600ms ease;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 5rem;
+    height: 100vh;
+    z-index:5;
+
+    div{
+        white-space: nowrap;
+    }
+}
+  
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+  
+#menu:hover{
+    cursor:pointer;
+}
+  
+.nav-item {
+    width: 100%;
+    margin:10px 0;
+}
+.logo-nav-item{
+    width: 100%;
+    margin:20px 0;
+}
+  
+.logo-nav-item:hover{
+    .nav-link{
+      color: #fff;
+    }
+}
+  
+  
+.navbar-nav{
+    li:last-child{
+        position: absolute;
+        margin: auto 5px 20px 25px;
+        bottom: 0;
+        left:0;
+    }
+}
+  
+#navbar .activeNavbar, .nav-item:hover{
+    background-color: #fff;
+    border-radius: 0 24px 24px 0;
+    color:#BA2F33;
+    cursor: pointer;
+    width: 100%;
+    .nav-link{
+      color:#BA2F33;
+    }
+    svg{
+      path{
+        transition: 600ms;
+        stroke: #BA2F33;
+      }
+    }
+}
+  
+.navbar-nav li:last-child:hover{
+    transform: scale(1.2) ;
+}
+  
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+  
+#navbar h1{
+    margin: 0;
+}
+  
+.link_article p:hover {
+    filter: grayscale(0%) opacity(1);
+    transition: 600ms ease;
+}
+  
+#link-text {
+    display: inline;
+    margin-left: 1rem;
+    font-family: "Viga";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+    white-space: nowrap;
+  
+}
+  
+.nav-link{
+    svg {
+        width: 2rem;
+        min-width: 2rem;
+        margin: 0 1.5rem;
+    }
+    img {
+        width: 3rem;
+        min-width: 3rem;
+        margin: 0 1rem;
+    }
+}
+  
+.fas {
+    min-width: 2rem;
+    height: 2rem;
+    color: #fff;
+    margin: auto 1.5rem;
+    text-align: center;
+}
+  
+.fa-primary, .fa-secondary {
+    transition: var(--transition-speed);
+    color: #FFF;
+}
+  
+.logo_men {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--couleurDeFond);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+  
+.logo-text {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+}
+  
+
+.theme-icon {
+    display: none;
+}
+
+.dark #darkIcon {
+    display: block;
+}
+
+.light #lightIcon {
+    display: block;
+}
+
+.solar #solarIcon {
+    display: block;
+}
+
+#subNavbarClub{
+    width:0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 4px 0px 10px 0px #00000040;
+    // padding-right: 45px;
+    border-right: 4px solid #BA2F33 ;
+    overflow: hidden;
+    // transition: 600ms ease;
+    ul{
+        padding: 0;
+    }
+}
+
+
+#subNavbarClub, #subNavbarInfoPrat, #subNavbarEquipe{
+    display: block;
+    white-space: nowrap;
+    // padding: 0;
+    h1{
+        font-family: "Viga";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #BA2F33;
+    }
+    
+    h2{
+        font-family: "Viga";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1C2645;
+    }
+    
+    li{
+        list-style: none;
+        font-family: "Ruda";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 30px 0;
+        white-space: nowrap;
+        display: flex; 
+        
+        a{
+            color: #1C2645;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+#subNavbarClub li :last-child{
+    margin-left: auto;
+}
+
+
+#subNavbarInfoPrat, #subNavbarEquipe{
+    display: none;
+}
+
+#ligne{
+    width: 100%;
+    height: 0;
+    border: 1px solid #2B39681A;
+}
+
+.isVisible{
+    display: inline;
+    width:16rem;
+}
+
+.isNotVisible{
+    width:0;
+    padding: 5rem 45px 0 0; 
+}
+
+/* Large screens */
+@media only screen and (max-width: 1296px) {
+    
+    .navbar{
+        transition: none;
+    }
+
+    #navbar{
+        margin-top: 2.8rem;
+        padding-top: 2rem;
+    }
+
+    .arrow-nav-item{
+        display: none;
+    }
+
+    .nav-link{
+        svg{
+            margin-right: 0!important;
+            margin-left: 0.5rem!important;
+        }
+    }
+
+    .isVisible{
+        width: 180px!important;
+    }
+
+    .navbar{
+        width: 0;
+        height: 100vh;
+    }
+
+    .isVisible_subNavbar{
+        margin-top: 2.8rem!important;
+        padding-left: 200px!important;
+        h1{
+            font-size: 24px !important;
+            margin-top: 3rem!important;
+            margin-bottom: 0!important;
+        }
+
+        h2{
+            font-size: 20px!important;
+            margin: 0;
+        }
+
+        li{
+            margin: 10px 0!important;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+
+    #subNavbarClub{
+        border-right: 0 solid #BA2F33 !important ;
+        // overflow: hidden;
+        // transition: 600ms ease;
+        // ul{
+        //     padding: 0;
+        // }
+    }
+}
+
+.isVisible_subNavbar{
+    display:inline !important;
+    width: 400px !important;
+    padding-left: 19rem;
+    padding-right: 45px;
+        
+}

@@ -1,0 +1,321 @@
+.actu {
+  height: 446px;
+  width: 401px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  background-position: center 65%;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.actu .overlay {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(179.18deg, rgba(0, 0, 0, 0.8) 0.7%, rgba(0, 0, 0, 0) 103.62%);
+}
+.actu .overlay .categoryActu {
+  width: 75%;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actu .overlay .categoryActu .circle_category {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #BA2F33;
+  border: 2px solid #FFFFFF;
+  z-index: 1;
+  margin-right: 11px;
+}
+.actu .overlay .categoryActu .content_category p {
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.actu .overlay .date {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 42px;
+  font-family: "Ruda";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.actu .background_shade {
+  position: relative;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.04%, #000000 100%);
+}
+.actu .background_shade .filter {
+  margin-top: auto;
+}
+.actu .background_shade .filter .content_actu {
+  padding: 24px;
+}
+.actu .background_shade .filter .content_actu h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+}
+.actu .background_shade .filter .content_actu p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+}
+.actu .background_shade .filter .content_actu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 33px;
+}
+.actu .background_shade .filter .content_actu .button2 {
+  border-radius: 3px;
+  background: #BA2F33;
+  font-family: "Viga";
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+}
+.actu .background_shade .filter .content_actu .button2:hover {
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #BA2F33;
+  transition: 600ms;
+}
+
+.actu:first-child {
+  overflow: hidden;
+  width: 1293px;
+  height: 364px;
+}
+.actu:first-child .background_shade_overlay {
+  position: relative;
+}
+.actu:first-child .background_shade_overlay .overlay {
+  position: absolute;
+  height: 100px;
+  background: linear-gradient(179.18deg, rgba(0, 0, 0, 0.8) 0.7%, rgba(0, 0, 0, 0) 103.63%);
+}
+.actu:first-child .background_shade_overlay .overlay .date {
+  display: none;
+}
+.actu:first-child .background_img1 {
+  background-position: center 65%;
+  background-size: cover;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+}
+.actu:first-child .background_img1:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 10%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(179.18deg, rgba(0, 0, 0, 0.8) 0.7%, rgba(0, 0, 0, 0) 103.63%);
+}
+.actu:first-child .background_shade {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.actu:first-child .filter {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  content: "";
+  height: 100%;
+  width: 45%;
+  transform-origin: 0 500px;
+  transform: skewX(-11deg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.7);
+}
+.actu:first-child .filter .content_actu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  right: 20%;
+  padding: 24px;
+  transform: skewX(11deg);
+}
+.actu:first-child .filter .content_actu h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+  width: 400px;
+}
+.actu:first-child .filter .content_actu p {
+  width: 80%;
+}
+.actu:first-child p {
+  font-weight: bold;
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: "normal";
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+}
+.actu:first-child .button {
+  position: relative;
+  text-align: right;
+  margin-top: 50px;
+}
+.actu:first-child #button_actu {
+  padding: 7px 20px;
+  border-radius: 3px;
+  background: #BA2F33;
+  font-family: "Viga";
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1296px) {
+  .actu .background_shade .filter .content_actu h1 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0em !important;
+  }
+
+  .actu:first-child .overlay .categoryActu {
+    width: 75% !important;
+    height: 100% !important;
+    margin-left: 20px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+  .actu:first-child .overlay .categoryActu .circle_category {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background-color: #BA2F33 !important;
+    border: 2px solid #FFFFFF !important;
+    z-index: 1 !important;
+    margin-right: 11px !important;
+  }
+  .actu:first-child .overlay .categoryActu .content_category p {
+    font-family: "Ruda" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #fff !important;
+  }
+  .actu:first-child .overlay .date {
+    width: 25% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    margin-right: 42px !important;
+  }
+  .actu:first-child .overlay .date p {
+    font-family: "Ruda" !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 15px !important;
+    letter-spacing: 0em !important;
+    color: #fff !important;
+  }
+  .actu:first-child .background_shade {
+    position: relative !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: auto !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.04%, #000000 100%) !important;
+  }
+  .actu:first-child .background_shade .filter {
+    margin-top: auto !important;
+    width: 100%;
+    transform: none;
+    background: none;
+    right: 0;
+  }
+  .actu:first-child .background_shade .filter .content_actu {
+    transform: none;
+    width: 100% !important;
+    margin-top: auto !important;
+    right: 0;
+  }
+  .actu:first-child .background_shade .filter .content_actu h1 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0em !important;
+    width: 100% !important;
+  }
+  .actu:first-child .background_shade .filter .content_actu a {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .actu:first-child .background_shade .filter .content_actu .button2 {
+    border-radius: 3px !important;
+    background: #BA2F33 !important;
+    font-family: "Viga" !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    height: 33px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/*# sourceMappingURL=Actu.css.map */

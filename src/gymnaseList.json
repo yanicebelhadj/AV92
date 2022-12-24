@@ -1,0 +1,34 @@
+[
+    {
+        "nomGymnase":"GYMNASE TRUFFAUT",
+        "maps_img":"truffaut",
+        "view_img":"view_truffaut",
+        "rue":"2 RUE DU BAC",
+        "ville":"92600 ASNIÈRES SUR SEINE",
+        "phone":"01 XX XX XX XX"
+    },
+    {
+        "nomGymnase":"GYMNASE COURTILLES",
+        "maps_img":"./images/courtilles.png",
+        "view_img":"view_courtilles",
+        "rue":"2 RUE DU BAC",
+        "ville":"92600 ASNIÈRES SUR SEINE",
+        "phone":"01 XX XX XX XX"
+    },
+    {
+        "nomGymnase":"GYMNASE TRUFFAUT",
+        "maps_img":"truffaut",
+        "view_img":"view_truffaut",
+        "rue":"2 RUE DU BAC",
+        "ville":"92600 ASNIÈRES SUR SEINE",
+        "phone":"01 XX XX XX XX"
+    },
+    {
+        "nomGymnase":"GYMNASE TRUFFAUT",
+        "maps_img":"truffaut",
+        "view_img":"view_truffaut",
+        "rue":"2 RUE DU FOUR",
+        "ville":"92600 ASNIÈRES SUR SEINE",
+        "phone":"01 02 02 02 XX"
+    }
+]

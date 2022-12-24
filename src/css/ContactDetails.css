@@ -1,0 +1,99 @@
+.ContactDetails {
+  width: 98%;
+  height: 80vh;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #0000001A;
+  border-radius: 3px;
+  margin: 20px 0 80px;
+  display: flex;
+  flex-direction: row;
+}
+.ContactDetails img {
+  height: 80vh;
+}
+.ContactDetails .textContact {
+  width: 350px;
+  height: 350px;
+  margin: 50px 180px;
+}
+.ContactDetails .textContact h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BA2F33;
+}
+.ContactDetails .textContact h2 {
+  font-family: "Ruda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #949494;
+}
+.ContactDetails .textContact p {
+  font-family: "Ruda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B3968;
+}
+.ContactDetails .textContact p:last-child {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+.ContactDetails .textContact a {
+  text-decoration: none;
+  color: #fff;
+}
+.ContactDetails .btn {
+  width: 280px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Viga";
+  background-color: #BA2F33;
+  border-color: #BA2F33;
+  margin: 40px 0;
+  border-radius: 3px;
+}
+.ContactDetails .btn:hover {
+  background-color: #fff;
+  color: #BA2F33;
+}
+
+@media screen and (max-width: 1296px) {
+  .ContactDetails {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  .ContactDetails img {
+    display: none;
+  }
+  .ContactDetails .textContact {
+    width: 320px;
+    margin: 0;
+  }
+  .ContactDetails .textContact a {
+    margin: 50px auto;
+  }
+}
+
+/*# sourceMappingURL=ContactDetails.css.map */

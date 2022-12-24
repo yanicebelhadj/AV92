@@ -1,0 +1,83 @@
+.Classement{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+    table {
+        width: 90vw;
+        border-collapse: collapse;
+        
+        tr{
+            border-radius: 5px;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+        
+        thead{
+            width: 10px;
+            tr{
+                th{
+                    font-family: "Viga";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #949494;    
+                }
+            }
+            
+        }
+        
+        tbody{
+
+            tr{
+                vertical-align: middle;
+            }
+        
+            tr:nth-child(odd) {
+                background-color: #fff;
+                border-radius: 3px;
+            }
+            
+            td {
+                font-family: "Ruda";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0em;
+
+            }
+
+            td:nth-child(1) {
+                text-align: left;
+            }
+    
+            td:nth-child(3){
+                padding-right: 30px;
+                font-family: "Ruda";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+    
+            th{
+                font-family: "Viga";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+            
+                color: #2B3968;
+            }
+        } 
+    }
+}

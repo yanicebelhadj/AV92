@@ -1,0 +1,147 @@
+.PlanAccesGymnase{
+    #title{
+        font-family: "Ruda";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #949494;
+        margin: 0;
+    }
+    .gymnase-card{
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+        border-top-right-radius: 70px;
+        height: 144px;
+        background-color: #fff;
+        width: 100%;
+        height: 188px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 30px;
+        flex-direction: row;
+        display: flex;
+        z-index: -3;
+        box-shadow: 0px 0px 20px 0px #0000001A;
+        border-radius: 3px;
+    }
+
+    .info_gymnase {
+        background: linear-gradient(180deg, rgba(186, 47, 51, 0.63) 0%, rgba(43, 57, 104, 0.504) 100%);
+        display: flex;
+        align-items: center;
+        font-family: "Viga";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    } 
+
+    .maps {
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background-position: 100%;
+        border-top-right-radius: 70px;
+    }
+      
+    .streetview, .info_gymnase, .info_training {
+        position: relative;
+        z-index: 0;
+        height: 100%;
+    }
+      
+      
+      
+    .info_gymnase .training{
+      font-family: "Viga";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+    }
+      
+    .streetview {
+        width: 336px;
+        justify-content: flex-start;
+        border-radius: 3px 0 70px 3px ;
+        background-position: 50%;
+        background-size: 160%;
+    }
+      
+    .info_gymnase {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0 3px 3px 70px;
+        width: 280px;
+        float: right;
+        margin-left: auto;
+        background: linear-gradient(180deg, rgba(186, 47, 51, 0.711) 0%, rgba(43, 57, 104, 0.9) 100%);
+        color: #fff;
+    }
+      
+    .svg_loc {
+        margin-top: 20px;
+    }
+      
+    .adress {
+        font-family: "Viga";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        align-items: center;
+        p{
+            margin: 0;
+        }
+    }
+      
+    .phone {
+        font-family: "Viga";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+    }
+  }
+  
+  
+  
+  
+
+  
+  @media screen and (max-width: 950px) {
+    .PlanAccesGymnase{
+        padding-left: 0;
+        h1{
+         font-size: 24px !important;   
+        }
+        .streetview{
+            width: 50% !important;
+            background-size: 350% !important;
+            background-position-y: 70% !important;
+        }
+      
+        .maps {
+          background-position: -200% center;
+          background-size: 100% !important;
+        }
+
+        .info_gymnase{
+            text-decoration: none;
+        }
+    }
+  
+  }

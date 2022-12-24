@@ -1,0 +1,29 @@
+.MotDuPresident{
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    background-color: #fff;
+    border-radius: 3px;;
+    overflow: hidden;
+    width:100%;
+    margin-top: 2rem;
+    display: flex;
+
+
+    
+    .TextMotPres{
+        width:60%;
+        margin:50px;
+        p{
+            font-family:"Roboto";
+            font-weight: 400;
+            font-style :normal;
+            font-size:16px;
+            line-height:24px;
+        }
+    }
+
+    #ImgMotPres{
+        width: 40%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+}

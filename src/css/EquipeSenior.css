@@ -1,0 +1,213 @@
+.EquipeSenior {
+  padding: 3rem 0 3rem 5rem;
+}
+.EquipeSenior h1 {
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BA2F33;
+}
+.EquipeSenior .TeamPicture {
+  width: 100%;
+  height: 641px;
+}
+.EquipeSenior .TeamPicture .filterTeamPicture {
+  position: relative;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 56.77%, rgba(0, 0, 0, 0.8) 100%);
+}
+.EquipeSenior .TeamPicture .filterTeamPicture .textArea {
+  position: absolute;
+  bottom: 0;
+  margin: 27px;
+  font-family: "Viga";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.EquipeSenior .ContainerTeam {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.EquipeSenior .ContainerTeam .TeamInformations {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.EquipeSenior .ContainerTeam .TeamInformations .Player {
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.EquipeSenior .ContainerTeam .TeamInformations .Coach {
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.EquipeSenior .ContainerTeam .PlayerCard, .EquipeSenior .ContainerTeam .CoachCard {
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 20px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+.EquipeSenior .ContainerTeam .PlayerCard:hover {
+  color: #000;
+}
+.EquipeSenior .ContainerTeam .player1 .bg2, .EquipeSenior .ContainerTeam .player2 .bg2, .EquipeSenior .ContainerTeam .player3 .bg2, .EquipeSenior .ContainerTeam .player4 .bg2, .EquipeSenior .ContainerTeam .player5 .bg2, .EquipeSenior .ContainerTeam .player6 .bg2, .EquipeSenior .ContainerTeam .player7 .bg2, .EquipeSenior .ContainerTeam .player8 .bg2, .EquipeSenior .ContainerTeam .player9 .bg2, .EquipeSenior .ContainerTeam .player10 .bg2, .EquipeSenior .ContainerTeam .player11 .bg2, .EquipeSenior .ContainerTeam .player12 .bg2, .EquipeSenior .ContainerTeam .player13 .bg2, .EquipeSenior .ContainerTeam .coach1 .bg2, .EquipeSenior .ContainerTeam .coach2 .bg2 {
+  opacity: 0;
+  border-radius: 5px;
+}
+.EquipeSenior .ContainerTeam .player1:hover .bg2, .EquipeSenior .ContainerTeam .player2:hover .bg2, .EquipeSenior .ContainerTeam .player3:hover .bg2, .EquipeSenior .ContainerTeam .player4:hover .bg2, .EquipeSenior .ContainerTeam .player5:hover .bg2, .EquipeSenior .ContainerTeam .player6:hover .bg2, .EquipeSenior .ContainerTeam .player7:hover .bg2, .EquipeSenior .ContainerTeam .player8:hover .bg2, .EquipeSenior .ContainerTeam .player9:hover .bg2, .EquipeSenior .ContainerTeam .player10:hover .bg2, .EquipeSenior .ContainerTeam .player11:hover .bg2, .EquipeSenior .ContainerTeam .player12:hover .bg2, .EquipeSenior .ContainerTeam .player13:hover .bg2, .EquipeSenior .ContainerTeam .coach1:hover .bg2, .EquipeSenior .ContainerTeam .coach2:hover .bg2 {
+  opacity: 1;
+  transition: 600ms ease-in-out;
+}
+.EquipeSenior .ContainerTeam .PlayerCard .textArea {
+  background: linear-gradient(180.06deg, rgba(255, 255, 255, 0) 27.06%, #2B3968 99.95%);
+  font-family: "Viga";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+.EquipeSenior .ContainerTeam .PlayerCard .playerName {
+  margin-bottom: 25px;
+}
+.EquipeSenior .ContainerTeam .PlayerCard .playerName .poste {
+  font-family: "Ruda";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.EquipeSenior .ContainerTeam .PlayerCard .playerNumber {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  margin: 18px 10px;
+  font-family: "Viga";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2B3968;
+}
+
+@media screen and (max-width: 1296px) {
+  .EquipeSenior {
+    padding: 1rem 0 3rem;
+  }
+  .EquipeSenior h1 {
+    margin: 10px;
+  }
+  .EquipeSenior .TeamPicture {
+    background-repeat: no-repeat;
+    height: 260px;
+    background-position: center 105% !important;
+  }
+  .EquipeSenior .TeamPicture .filterTeamPicture .textArea {
+    padding: 8px;
+    font-size: 16px;
+    line-height: 21.5px;
+    margin: 0;
+  }
+  .EquipeSenior .ContainerTeam {
+    flex-direction: column;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations {
+    width: 100%;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .Player {
+    padding: 0;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .Coach {
+    padding: 0;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .PlayerCard {
+    width: 172px;
+    height: 112px;
+    margin: 10px;
+    background-position-y: 15% !important;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .PlayerCard .bg2 {
+    background-position-y: 15% !important;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .PlayerCard .textArea .playerNumber {
+    width: 28px;
+    height: 25px;
+    font-size: 16px;
+    margin: 5px;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .PlayerCard .textArea .playerName {
+    font-size: 10px;
+    line-height: 13.44px;
+    margin-bottom: 5px;
+  }
+  .EquipeSenior .ContainerTeam .TeamInformations .PlayerCard .textArea .playerName .poste {
+    font-size: 8px;
+  }
+  .EquipeSenior .TrainingTime {
+    display: none;
+  }
+  .EquipeSenior .Score .headerMatch {
+    margin: 0 10px;
+  }
+  .EquipeSenior .Score .match {
+    width: 374px;
+    margin: auto;
+  }
+  .EquipeSenior .Classement {
+    padding: 0;
+  }
+  .EquipeSenior .Classement table {
+    margin: auto;
+    color: #2B3968;
+  }
+  .EquipeSenior .Classement table #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .EquipeSenior .Classement table #logo p {
+    margin-left: 15px;
+  }
+  .EquipeSenior .Classement table thead tr :not(#num, #logo, #point) {
+    display: none;
+  }
+  .EquipeSenior .Classement table tbody tr :not(#num, #logo, #logo img, #logo p, #point) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=EquipeSenior.css.map */
